@@ -1,7 +1,7 @@
 const handler = async (m, {conn}) => {
   m.reply(global.Actividades4);
 };
-handler.command = /^(Actividades4|actividades4|lista4)$/i;
+handler.command = /^(Actividades4|actividades4|lista4|VsKillzN)$/i;
 export default handler;
 
 global.Actividades4 = ` 
