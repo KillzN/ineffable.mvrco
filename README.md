@@ -1,6 +1,6 @@
 
-### `—◉ 👑 ¡Hola! ALEIZN-MD?, CONTACTAME 👑`
-<a href="http://wa.me/+519926216018" target="blank"><img src="https://img.shields.io/badge/Ale-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+### `—◉ 👑 ¡Hola! KillzN?, CONTACTAME 👑`
+<a href="http://wa.me/+56983073328" target="blank"><img src="https://img.shields.io/badge/KillzN-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
 > NO BOT
 
 ### `—◉ 🖍 LETRA DEL BOT 🖍`
@@ -22,11 +22,11 @@ pkg install -y git nodejs ffmpeg imagemagick && pkg install yarn
 ```
 
 ```bash
-git clone https://github.com/ALEIZN/Propio
+git clone https://github.com/KillzN/ineffable.mvrco
 ```
 
 ```bash
-cd Propio
+cd ineffable.mvrco
 ```
 
 ```bash
@@ -54,14 +54,14 @@ npm start
 ### `—◉ ✔️ ACTIVAR EN CASO DE DETENERSE ✔️`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd Permanente
+> cd KillzN
 > npm start
 ```
 
 ### `—◉ 👽 OBTENER OTRO CODIGO QR 👽`
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd Permanente
+> cd KillzN
 > rm -rf session.data.json
 > npm start
 ```
@@ -83,7 +83,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 ```
 
 ## `EDITOR Y PROPIETARIO DEL BOT` 
-`Ale __________ Ale?`
+`KillzN __________ KillzN?`
 
 ![Snake animation](https://github.com/GataNina-Li/GataNina-Li/blob/output/github-contribution-grid-snake.svg)
 <<<<<<< HEAD
