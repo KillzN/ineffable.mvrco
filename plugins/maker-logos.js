@@ -830,7 +830,7 @@ async function maker(url, text) {
       let submit = $('#submit').val()
       let types = [];
       $('input[name="radio0[radio]"]').each((i, elem) => {
-         types.push($(elem).attr("value"));
+         types.push($(elem).attr("👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e"));
       })
       let post;
       if (types.length != 0) {
@@ -867,7 +867,7 @@ async function maker(url, text) {
          }
       })
       $ = cheerio.load(b.data)
-      let out = ($('#form_value').first().text() || $('#form_value_input').first().text() || $('#form_value').first().val() || $('#form_value_input').first().val())
+      let out = ($('#form_👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e').first().text() || $('#form_👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e_input').first().text() || $('#form_👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e').first().val() || $('#form_👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e_input').first().val())
       let c = await axios.post((new URL(url)).origin + "/effect/create-image", JSON.parse(out), {
          headers: {
             "Accept": "*/*",

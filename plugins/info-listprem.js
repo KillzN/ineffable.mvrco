@@ -1,7 +1,7 @@
 const handler = async (m, {conn, args, isPrems}) => {
   const usuario = global.db.data.users[m.sender].premiumTime;
-  const user = Object.entries(global.db.data.users).filter((user) => user[1].premiumTime).map(([key, value]) => {
-    return {...value, jid: key};
+  const user = Object.entries(global.db.data.users).filter((user) => user[1].premiumTime).map(([key, 👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e]) => {
+    return {...👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e, jid: key};
   });
   const premTime = global.db.data.users[m.sender].premiumTime;
   const prem = global.db.data.users[m.sender].premium;
@@ -58,8 +58,8 @@ function toNumber(property, _default = 0) {
 
 /* let handler = async (m, { conn, args }) => {
 let usuario = global.db.data.users[m.sender].premiumTime
-let user = Object.entries(global.db.data.users).filter(user => user[1].premiumTime).map(([key, value]) => {
-return { ...value, jid: key }})
+let user = Object.entries(global.db.data.users).filter(user => user[1].premiumTime).map(([key, 👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e]) => {
+return { ...👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e, jid: key }})
 let premTime = global.db.data.users[m.sender].premiumTime
 let prem = global.db.dat🧿 𝚃𝚑𝚎 𝙼𝚢𝚜𝚝𝚒𝚌 - 𝙱𝚘𝚝 🔮a.users[m.sender].premium
 let userr = await '@' + m.sender.split`@`[0]

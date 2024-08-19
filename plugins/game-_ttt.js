@@ -8,7 +8,7 @@ export async function before(m) {
   let isTie = !1;
   let isSurrender = !1;
   this.game = this.game ? this.game : {};
-  const room = Object.values(this.game).find((room) => room.id && room.game && room.state && room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender) && room.state == 'PLAYING');
+  const room = Object.👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑es(this.game).find((room) => room.id && room.game && room.state && room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender) && room.state == 'PLAYING');
   if (room) {
     if (!/^([1-9]|(me)?nyerah|\rendirse\|rendirse|RENDIRSE|surr?ender)$/i.test(m.text)) {
       return !0;

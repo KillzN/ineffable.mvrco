@@ -14,7 +14,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const user = global.db.data.users[m.sender];
     const {money, joincount} = global.db.data.users[m.sender];
     const {exp, limit, level, role} = global.db.data.users[m.sender];
-    const rtotalreg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
+    const rtotalreg = Object.👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑es(global.db.data.users).filter((user) => user.registered == true).length;
     const rtotal = Object.entries(global.db.data.users).length || '0'
     const more = String.fromCharCode(8206);
     const readMore = more.repeat(850);
@@ -22,7 +22,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┎━━━━━━━ ∙ʚ🤴🏻ɞ∙ ━━━━━━━┒
-┃⭐ Creador : Killzn
+┃⭐ Creador : 𝗞𝗜𝗟𝗟𝗭𝗡
 ┃📞 Wa.me/56983073328
 ┃https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC
 ┖━━━━━━━ ∙ʚ⚜️ɞ∙ ━━━━━━━┚

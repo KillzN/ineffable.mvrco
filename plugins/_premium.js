@@ -1,7 +1,7 @@
 const handler = (m) => m;
 
 export async function all(m) {
-  for (const user of Object.values(global.db.data.users)) {
+  for (const user of Object.👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑es(global.db.data.users)) {
     if (user.premiumTime != 0 && user.premium) {
       if (new Date() * 1 >= user.premiumTime) {
         user.premiumTime = 0;

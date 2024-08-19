@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 import {JSDOM} from 'jsdom';
 const handler = async (m, {conn, text}) => {
-  conn.reply(m.chat, Object.entries(await stylizeText(text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text)).map(([name, value]) => `*${name}*\n${value}`).join`\n\n`, m);
+  conn.reply(m.chat, Object.entries(await stylizeText(text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text)).map(([name, 👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e]) => `*${name}*\n${👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e}`).join`\n\n`, m);
 };
 handler.help = ['style'].map((v) => v + ' <text>');
 handler.tags = ['tools'];

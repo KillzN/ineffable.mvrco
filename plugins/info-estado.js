@@ -8,7 +8,7 @@ import { performance } from "perf_hooks";
 const handler = async (m, { conn, usedPrefix }) => {
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const totalusrReg = Object.values(global.db.data.users).filter((user) => user.registered == true).length;
+  const totalusrReg = Object.👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑es(global.db.data.users).filter((user) => user.registered == true).length;
   const totalusr = Object.keys(global.db.data.users).length;
   const chats = Object.entries(conn.chats).filter(
     ([id, data]) => id && data.isChats,
@@ -22,10 +22,10 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const rtime = (neww - old).toFixed(7);
-  const wm = '𝗞𝗜𝗟𝗟𝗭𝗡';
+  const wm = '👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑';
   const info = ` _*< INFO - ESTADO />*_
 
- [🤴🏻] *Prop.:* 𝗞𝗜𝗟𝗟𝗭𝗡
+ [🤴🏻] *Prop.:* 👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑
  [#️⃣] *WA:* wa.me/56983073328
 
  [💡] *Ping:* ${rtime}

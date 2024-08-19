@@ -1,6 +1,6 @@
 const handler = async (m, {conn, args, participants}) => {
-  const users = Object.entries(global.db.data.users).map(([key, value]) => {
-    return {...value, jid: key};
+  const users = Object.entries(global.db.data.users).map(([key, 👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e]) => {
+    return {...👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e, jid: key};
   });
   const sortedExp = users.map(toNumber('exp')).sort(sort('exp'));
   const sortedLim = users.map(toNumber('limit')).sort(sort('limit'));

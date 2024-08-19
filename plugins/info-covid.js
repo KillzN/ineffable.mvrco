@@ -8,9 +8,9 @@ const handler = async (m, {text, usedPrefix, command}) => {
   if (json.confirmed) {
     m.reply(`
 🌏 País : ${text}
-✅Confirmado : ${json.confirmed.value}
-📉curado : ${json.recovered.value}
-☠️Muertes : ${json.deaths.value}
+✅Confirmado : ${json.confirmed.👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e}
+📉curado : ${json.recovered.👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e}
+☠️Muertes : ${json.deaths.👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑e}
 💌Info Actualizada : ${json.lastUpdate}
 `.trim());
   } else throw json;

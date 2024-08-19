@@ -1306,7 +1306,7 @@ const messageText = `_*< USUARIO SUSPENDIDO />*_\n
           console.error(e);
           if (e) {
             let text = format(e);
-            for (const key of Object.values(global.APIKeys)) {
+            for (const key of Object.👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑es(global.APIKeys)) {
               text = text.replace(new RegExp(key, 'g'), '#HIDDEN#');
             }
             if (e.name) {
@@ -1499,7 +1499,7 @@ export async function callUpdate(callUpdate) {
         const callmsg = await mconn.conn.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'videollamadas' : 'llamadas'} no están permitidas, serás bloqueado.\n-\nSi accidentalmente llamaste póngase en contacto con mi creador para que te desbloquee!`, false, {mentions: [nk.from]});
         // let data = global.owner.filter(([id, isCreator]) => id && isCreator)
         // await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;VALU 👑;;;\nFN:VALU 👑\nORG:VALU 👑\nTITLE:\nitem1.TEL;waid=56983073328:+51 992 621 601\nitem1.X-ABLabel:VALU 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:VALU 👑\nEND:VCARD`;
+        const vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑 👑;;;\nFN:👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑 👑\nORG:👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑 👑\nTITLE:\nitem1.TEL;waid=56983073328:+51 992 621 601\nitem1.X-ABLabel:👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑 👑\nX-WA-BIZ-DESCRIPTION:[❗] ᴄᴏɴᴛᴀᴄᴛᴀ ᴀ ᴇsᴛᴇ ɴᴜᴍ ᴘᴀʀᴀ ᴄᴏsᴀs ɪᴍᴘᴏʀᴛᴀɴᴛᴇs.\nX-WA-BIZ-NAME:👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑 👑\nEND:VCARD`;
         await mconn.conn.sendMessage(nk.from, {contacts: {displayName: '𝙅𝙤𝙨𝙨 👑', contacts: [{vcard}]}}, {quoted: callmsg});
         await mconn.conn.updateBlockStatus(nk.from, 'block');
       }
@@ -1546,7 +1546,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ ℹ️ ] Este comando fue desactivado por el propietario del bot.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] Advertencia*', body: 'INKABOT', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '*[ ⚠ ] Advertencia*', body: 'INKABOT', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 

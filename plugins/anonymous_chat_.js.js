@@ -3,7 +3,7 @@ export async function before(m, {match}) {
     return !0;
   }
   this.anonymous = this.anonymous ? this.anonymous : {};
-  const room = Object.values(this.anonymous).find((room) => [room?.a, room?.b].includes(m.sender) && room?.state === 'CHATTING');
+  const room = Object.👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑es(this.anonymous).find((room) => [room?.a, room?.b].includes(m.sender) && room?.state === 'CHATTING');
   if (room) {
     if (/^(next|leave|start)/.test(m.text)) {
       const other = [room?.a, room?.b].find((user) => user !== m.sender);

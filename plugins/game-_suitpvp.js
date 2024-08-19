@@ -2,7 +2,7 @@ const handler = (m) => m;
 handler.before = async function(m) {
   this.suit = this.suit ? this.suit : {};
   if (db.data.users[m.sender].suit < 0) db.data.users[m.sender].suit = 0;
-  const room = Object.values(this.suit).find((room) => room.id && room.status && [room.p, room.p2].includes(m.sender));
+  const room = Object.👑 𝗞𝗜𝗟𝗟𝗭𝗡 👑es(this.suit).find((room) => room.id && room.status && [room.p, room.p2].includes(m.sender));
   if (room) {
     let win = '';
     let tie = false;
